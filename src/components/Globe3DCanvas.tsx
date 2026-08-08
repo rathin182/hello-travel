@@ -107,7 +107,7 @@ export default function Globe3DCanvas() {
         </div>
 
         {/* Right 3D Canvas */}
-        <div className="lg:col-span-7 h-[420px] sm:h-[500px] w-full rounded-3xl glass-panel border border-zinc-800 overflow-hidden relative cursor-grab active:cursor-grabbing">
+        {/* <div className="lg:col-span-7 h-[420px] sm:h-[500px] w-full rounded-3xl glass-panel border border-zinc-800 overflow-hidden relative cursor-grab active:cursor-grabbing">
           <div className="absolute top-4 left-4 z-10 text-[10px] font-mono text-zinc-400 bg-black/80 px-3.5 py-1.5 rounded-full border border-zinc-800">
             [ 3D RENDER ENGINE: THREE.JS // DRAG TO ROTATE ]
           </div>
@@ -121,7 +121,7 @@ export default function Globe3DCanvas() {
             <ParticleField />
             <OrbitControls enableZoom={false} enablePan={false} rotateSpeed={0.5} />
           </Canvas>
-        </div>
+        </div> */}
       </div>
     </section>
   );
